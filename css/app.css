@@ -1,0 +1,45 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Zilla Slab', serif;
+}
+.new__issue{
+	padding:20px;
+	width:100%;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	color:inherit;
+}
+.code__issue textarea{
+	width:100%;
+	padding:20px;
+	outline:none;
+	border:none;
+}
+.issue{
+	display:block;
+	width:100%;
+	padding:20px;
+	border-bottom:2px solid #e0e0e0;
+	margin-bottom:2px;
+}
+.issue a:first-child{
+	color: inherit;
+	text-decoration:none;
+}
+.delete__issue{
+	text-decoration:none;
+	color:red;
+}
+.fix__issue{
+	text-decoration:none;
+	color:red;
+	position:absolute;
+	right:55px;
+}
+.fixed__issue{
+	color:#27ae60;
+	text-decoration:none;
+	position:absolute;
+	right:55px;
+}
